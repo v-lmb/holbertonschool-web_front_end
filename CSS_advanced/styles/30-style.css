@@ -667,7 +667,7 @@ ul.row {
 	left: var(--header-logo-link-left);
 }
 
-.card-outer .card-work {
+.card-work {
 	position: relative;
 	overflow: hidden;
 }
@@ -699,13 +699,13 @@ ul.row {
 	position: relative;
 }
 
-.card-title .card-work a {
+.card-work .card-title a {
 	display: block;
 	text-decoration: none;
 	padding: 45%;
 }
 
-.card-title .card-work a::after {
+.card-work .card-title a::after {
 	position: absolute;
 	top: 0;
 	right: 0;
